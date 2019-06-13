@@ -1,0 +1,65 @@
+{
+    "hero_section": {
+        "title": "Welcome To Digital Marketing Agency",
+        "description": "Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus vel, ultrices in ligula. Nulla ut sollicitudin velit. Sed porttitor orci vel fermentum maximus. Curabitur ut turpis massa.",
+        "btn_text": "Learn more",
+        "img_hero": "https://lh3.googleusercontent.com/hNByShXuKqfFRPb4NEIyhtf06_cysN_CdhxcB5BBpfoz4vvvRHW0VpOH46DsFUly_QI5OgJ9QFNnAAI3aJN0tMio9ig"
+    },
+    "section1": {
+        "title": "About Us",
+        "subtitle": "Welcome To Our Digital Marketing Agency Website",
+        "description": "Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus vel, ultrices in ligula. Nulla uter sollicitudin velit. Sed porttitor orci vel ferm.",
+        "description2": "Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus vel, ultrices in ligula. Nulla uter sollicitudin velit. Sed porttitor orci vel fermentum elit maximus. Curabitur ut turpis massa in condimentum libero. Pellentesque maximus.",
+        "img_section": "https://lh3.googleusercontent.com/Ek77DnIXAfr8hSZv4KJdoCd1pSq7zVil68xVlyG3HsnY6nsQFjPsNpbd-B_bUaJBxx0FxlOIcpLWmZ-fg5VyMHRd1Q",
+        "show_or_hide": true
+    },
+    "section2": {
+        "title": "What We Provide",
+        "show_or_hide": true
+    },
+    "section3": {
+        "title": "Marketing Process",
+        "lists": {
+            "list1": {
+                "img_list": "https://lh3.googleusercontent.com/Ek77DnIXAfr8hSZv4KJdoCd1pSq7zVil68xVlyG3HsnY6nsQFjPsNpbd-B_bUaJBxx0FxlOIcpLWmZ-fg5VyMHRd1Q",
+                "title": "Marketing Products",
+                "description": "Excepteur ut occaecat proident, sunt in culpa quis. Phasellus lacinia id erat risus quis."
+            },
+            "list2": {
+                "img_list": "https://lh3.googleusercontent.com/3_I77YsJBDr78Sy9Ya1G7F8TmX0yG9XM_7gaWdT0Xi2JtNI7tWeejUAASZStkULb6a4grrUcyyVLEYJ9KSShaS_BOQ",
+                "title": "Advertising Agency",
+                "description": "Excepteur ut occaecat proident, sunt in culpa quis. Phasellus lacinia id erat risus quis."
+            },
+            "list3": {
+                "img_list": "https://lh3.googleusercontent.com/Ek77DnIXAfr8hSZv4KJdoCd1pSq7zVil68xVlyG3HsnY6nsQFjPsNpbd-B_bUaJBxx0FxlOIcpLWmZ-fg5VyMHRd1Q",
+                "title": "Process Planning",
+                "description": "Excepteur ut occaecat proident, sunt in culpa quis. Phasellus lacinia id erat risus quis."
+            },
+            "list4": {
+                "img_list": "https://lh3.googleusercontent.com/3_I77YsJBDr78Sy9Ya1G7F8TmX0yG9XM_7gaWdT0Xi2JtNI7tWeejUAASZStkULb6a4grrUcyyVLEYJ9KSShaS_BOQ",
+                "title": "Product Sales",
+                "description": "Excepteur ut occaecat proident, sunt in culpa quis. Phasellus lacinia id erat risus quis."
+            }
+        },
+        "show_or_hide": true
+    },
+    "section4": {
+        "title": "Digital Marketing Business Agency",
+        "description": "Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit amet when an unknown printer took a galley of type.Vivamus id tempor felis. Cras sagittis mi sit amet malesuada mollis. Mauris porroinit consectetur cursus tortor vel interdum.",
+        "video_embed_src": "https://www.youtube.com/embed/bzeBIAKJeDw",
+        "show_or_hide": true
+    },
+    "section5": {
+        "title": "Our Portfolio",
+        "show_or_hide": true
+    },
+    "section6": {
+        "title": "Blogs",
+        "show_or_hide": true
+    },
+    "register": {
+        "title": "Register",
+        "description": "Excepteur ut occaecat proident, sunt in culpa quis. Phasellus lacinia id erat risus quis.",
+        "show_or_hide": true
+    }
+}

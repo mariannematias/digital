@@ -1,0 +1,33 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+{{>head}}
+<body>
+
+	<div class="post-page">
+        {{>header}}
+    
+        <!-- blogs -->
+        <section class="post">
+            <div class="container py-md-3">
+                <h3 class="heading">{{post.title}}</h3>
+                <p>{{post.dateString}}</p>
+                <div class="post-content">
+                    <p><img src="{{{post.image}}}=s620"/></p>
+                    <p>{{{post.text}}}</p>
+                </div>
+            </div>
+        </section>
+        <!-- //blogs -->
+    </div>
+
+    {{>footer}}
+    
+    <script src="{{{cdn}}}/dist/js/vendor.min.js"></script>
+</body>
+</html>

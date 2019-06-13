@@ -1,0 +1,28 @@
+<!-- //header -->
+<header class="py-4">
+	<div class="container">
+			<div id="logo">
+				<h1> <a href="/"><img class="logo-img" src="{{{global.img_logo_nav}}}"/></a></h1>
+			</div>
+		<!-- nav -->
+		<nav class="d-lg-flex">
+			<label for="drop" class="toggle"><span class="fa fa-bars" aria-hidden="true"></span></label>
+			<input type="checkbox" id="drop" />
+			<ul class="menu mt-2 ml-auto">
+                {{#global.header_nav.nav1.show_or_hide}}
+				<li class=""><a href="/">{{global.header_nav.nav1.text}}</a></li>
+                {{/global.header_nav.nav1.show_or_hide}}
+
+                {{#global.header_nav.nav2.show_or_hide}}
+				<li class=""><a href="/blog">{{global.header_nav.nav2.text}}</a></li>
+                {{/global.header_nav.nav2.show_or_hide}}
+			</ul>
+			<div class="login-icon ml-lg-2">
+				<a class="user" href="#register">{{global.header_nav.btn_text}}</a>
+			</div>
+		</nav>
+		<div class="clear"></div>
+		<!-- //nav -->
+	</div>
+</header>
+<!-- //header -->

@@ -1,0 +1,40 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+{{>head}}
+<body>
+
+	<div class="blog-page">
+        {{>header}}
+    
+        <!-- blogs -->
+        <section class="blogs">
+            <div class="container py-md-3">
+                <h3 class="heading mb-5">Blogs</h3>
+                <div class="feature-grids row">
+                    {{#posts}}
+                    <div class="col-lg-4 col-sm-6 blog-box">
+                        <div class="f1 icon1 p-4">
+                            <a href="/post/{{{slug}}}"><img src="{{{image}}}"/></a>
+                            <a href="/post/{{{slug}}}"><h3 class="my-3">{{title}}</h3></a>
+                            <p>{{preview}}</p>
+                            <p class="date">{{dateString}}</p>
+                        </div>
+                    </div>
+                    {{/posts}}
+                </div>
+            </div>
+        </section>
+        <!-- //blogs -->
+    </div>
+
+    {{>footer}}
+
+    <script src="{{{cdn}}}/dist/js/vendor.min.js"></script>
+</body>
+</html>
