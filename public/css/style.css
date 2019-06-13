@@ -1071,6 +1071,10 @@ footer .social-info li a {
 .blog-page {
     margin-bottom: 4rem;
 }
+.blog-page .login-icon,
+.post-page .login-icon {
+    display: none;
+}
 .blog-page header,
 .post-page header{
     background: #6a67ce;
