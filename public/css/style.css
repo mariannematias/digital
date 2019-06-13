@@ -1068,8 +1068,8 @@ footer .social-info li a {
     margin-top: 1rem;
     font-size: .8rem;
 }
-.blog-page {
-    margin-bottom: 4rem;
+.blogs {
+    background: #f9f9f9;
 }
 .blog-page .login-icon,
 .post-page .login-icon {
@@ -1078,6 +1078,9 @@ footer .social-info li a {
 .blog-page header,
 .post-page header{
     background: #6a67ce;
+}
+.blog-page .blogs {
+    padding-bottom: 3rem;
 }
 .blog-page .blogs,
 .post-page .post {
@@ -1095,7 +1098,12 @@ footer .social-info li a {
     display: block;
     margin-bottom: 2rem;
 }
-
+footer {
+    padding: 4rem 0 0;
+}
+.vertex {
+    padding-bottom: 2rem;
+}
 
 /*-- Responsive design --*/
 

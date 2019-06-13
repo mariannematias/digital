@@ -54,12 +54,13 @@
         "show_or_hide": true
     },
     "section6": {
-        "title": "Blogs",
+        "title": "Blog",
         "show_or_hide": true
     },
-    "register": {
-        "title": "Register",
+    "contact": {
+        "title": "Contact",
         "description": "Excepteur ut occaecat proident, sunt in culpa quis. Phasellus lacinia id erat risus quis.",
+        "btn_text": "Submit",
         "show_or_hide": true
     }
 }
