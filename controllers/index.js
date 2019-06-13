@@ -7,7 +7,7 @@ const SubscriberController = require('./SubscriberController')
 module.exports = {
 
 	service: ServiceController,
-	reference: ReferenceController,
+	//reference: ReferenceController,
     post: PostController,
     project: ProjectController,
 	subscriber: SubscriberController

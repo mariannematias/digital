@@ -13,7 +13,10 @@
             "text": "Blog",
             "show_or_hide": true
         },
-        "btn_text": "Contact"
+        "button": {
+            "btn_text": "Contact",
+            "show_or_hide": true
+        }
     },
     "footer": {
         "social": {

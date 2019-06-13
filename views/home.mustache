@@ -152,11 +152,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <!-- popup-->
                 {{#projects}}
                 <div id="{{slug}}" class="pop-overlay animate">
+                    {{#link}}
+                    <div class="popup">
+                        <a href="{{{link}}}" target="_blank"><img src="{{{image}}}" alt="Popup Image" class="img-fluid" /></a>
+                        <a href="{{{link}}}" target="_blank"><p class="mt-4">{{description}}</p></a>
+                        <a class="close" href="#section5">&times;</a>
+                    </div>
+                    {{/link}}
+                    {{^link}}
                     <div class="popup">
                         <img src="{{{image}}}" alt="Popup Image" class="img-fluid" />
                         <p class="mt-4">{{description}}</p>
                         <a class="close" href="#section5">&times;</a>
                     </div>
+                    {{/link}}
                 </div>
                 {{/projects}}
                 <!-- //popup -->
